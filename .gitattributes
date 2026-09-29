@@ -1,3 +1,7 @@
 # Arquivos .bat precisam da quebra de linha do Windows (CRLF).
 # "-text" faz o git guardar e entregar o arquivo exatamente como está.
 *.bat -text
+
+# O .bat do estatístico é, na verdade, um programa Python:
+# conta como Python nas estatísticas de linguagem do GitHub.
+estatistico/*.bat linguist-language=Python
