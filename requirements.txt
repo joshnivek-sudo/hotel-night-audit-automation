@@ -1,0 +1,5 @@
+# Dependências do projeto
+# Instalar com:  python -m pip install -r requirements.txt
+openpyxl   # ler e preencher as planilhas .xlsx
+xlrd       # ler os relatórios em .xls (formato antigo do Excel)
+pypdf      # ler o relatório de comandas quando vem em PDF
