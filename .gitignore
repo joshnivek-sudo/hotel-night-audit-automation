@@ -1,0 +1,55 @@
+# ============================================================
+#  DADOS REAIS DO HOTEL — NUNCA PUBLICAR
+#  Relatórios e planilhas têm nomes de hóspedes, valores e
+#  dados financeiros. Ficam só no seu computador.
+# ============================================================
+*.xls
+*.xlsx
+*.xlsm
+*.xlsb
+*.ods
+*.csv
+*.pdf
+*.log
+*.txt
+
+# Exceção: dados FICTÍCIOS de exemplo podem ir pro GitHub
+!exemplos/**
+# Exceção: lista de dependências do Python
+!requirements.txt
+
+# Saídas das automações (planilhas prontas, backups, log privado)
+PRONTAS/
+backup/
+
+# Configuração local (números de maquininha, caminhos da máquina etc.)
+config.json
+.env
+
+# ============================================================
+#  Python
+# ============================================================
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# ============================================================
+#  Executável gerado (PyInstaller) — vai em "Releases", não no código
+# ============================================================
+build/
+dist/
+*.spec
+*.exe
+
+# ============================================================
+#  Sistema / editor
+# ============================================================
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+~$*
