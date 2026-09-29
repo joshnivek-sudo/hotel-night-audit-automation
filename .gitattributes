@@ -1,0 +1,3 @@
+# Arquivos .bat precisam da quebra de linha do Windows (CRLF).
+# "-text" faz o git guardar e entregar o arquivo exatamente como está.
+*.bat -text
