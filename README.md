@@ -7,7 +7,7 @@
 
 Scripts em Python que automatizam duas rotinas diárias da auditoria noturna de um hotel: o **fechamento de cartões** e o **relatório estatístico**. Os relatórios exportados do sistema de gestão hoteleira entram, as planilhas saem prontas pra enviar.
 
-🇺🇸 *[Read in English](README.en.md)*
+🌎 *[Read in English](README.en.md)*
 
 ---
 
